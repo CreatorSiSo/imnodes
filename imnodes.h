@@ -1,7 +1,7 @@
 #pragma once
 
-#include <stddef.h>
 #include <imgui.h>
+#include <stddef.h>
 
 #ifdef IMNODES_USER_CONFIG
 #include IMNODES_USER_CONFIG
@@ -24,6 +24,8 @@ enum ImNodesCol_
     ImNodesCol_NodeBackgroundHovered,
     ImNodesCol_NodeBackgroundSelected,
     ImNodesCol_NodeOutline,
+    ImNodesCol_NodeOutlineHovered,
+    ImNodesCol_NodeOutlineSelected,
     ImNodesCol_TitleBar,
     ImNodesCol_TitleBarHovered,
     ImNodesCol_TitleBarSelected,
