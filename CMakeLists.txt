@@ -7,4 +7,4 @@ add_library(
   ${PROJECT_NAME} STATIC ./imnodes.cpp)
 
 # Includes
-target_include_directories(${PROJECT_NAME} PRIVATE ./ PUBLIC ../imgui)
+target_include_directories(${PROJECT_NAME} PUBLIC ./ PUBLIC ../imgui)
